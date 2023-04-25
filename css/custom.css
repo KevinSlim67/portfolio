@@ -970,7 +970,7 @@
 /* ================================================================= */
 
 /* ================================================================= */
-#contact, .test {
+#contact {
   position: relative;
   background-image: linear-gradient(
     to bottom,
@@ -980,6 +980,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+#contact ::selection {
+  color: var(--primary-color);
+  background-color: var(--bs-body-color);
+}
+
+/* ================================================================= */
+
+/* Footer ========================================================== */
+#footer {
+  padding: 1.2rem 0;
 }
 
 /* ================================================================= */
