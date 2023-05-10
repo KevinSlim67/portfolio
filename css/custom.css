@@ -308,7 +308,7 @@
   left: 0;
   right: 0;
   bottom: 75%;
-  transform: skewY(-15deg);
+  transform: skewY(15deg);
   transform-origin: top right;
   transition: bottom 0.4s;
   background: #fff;
