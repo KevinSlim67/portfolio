@@ -197,6 +197,10 @@
     margin-top: 1.5rem;
     padding-right: 0 !important;
   }
+
+  #about .image {
+    padding-right: 1.5rem !important;
+  }
 }
 
 @media (max-width: 600px) {
@@ -307,16 +311,18 @@
   top: -100vh;
   left: 0;
   right: 0;
-  bottom: 75%;
-  transform: skewY(15deg);
+  bottom: 55%;
+  transform: skewY(12deg);
   transform-origin: top right;
   transition: bottom 0.4s;
   background: #fff;
+  transition: all 0.4s ease;
   z-index: -1;
 }
 
 #services .service:hover figcaption::after {
   bottom: 0;
+  transform: skewY(0);
 }
 
 #services .service h4 {
